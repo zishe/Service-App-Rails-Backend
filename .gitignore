@@ -14,3 +14,30 @@
 !/tmp/.keep
 
 .byebug_history
+
+.env
+.env.production
+
+# Ignore Vagrant files
+.vagrant/
+
+# Ignore Capistrano customizations
+config/deploy/*
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore postgres + redis volume optionally created by docker-compose
+postgres
+redis
+
+# Ignore Apple files
+.DS_Store
+
+# Ignore vim files
+*~
+*.swp
+
+# Ignore Docker option files
+docker-compose.override.yml
